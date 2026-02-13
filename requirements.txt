@@ -1,0 +1,12 @@
+# This requirements.txt file lists all the external libraries needed for the 3GPP Standard Crawler project.
+# - requests: For making HTTP requests to download files.
+# - beautifulsoup4: For parsing HTML content to extract links.
+# - tqdm: For displaying progress bars during downloads.
+# - selenium: For automating web browser interaction if needed.
+# - webdriver-manager: For managing browser drivers used by selenium.
+
+requests
+beautifulsoup4
+tqdm
+selenium
+webdriver-manager
