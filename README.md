@@ -80,4 +80,5 @@ MAX_THREADS = 7
 
 **Author:** Washington Ruan  
 **Date:** February 25, 2026  
-**License:** MIT
+**License:** Apache-2.0 license
+
