@@ -75,3 +75,9 @@ MAX_THREADS = 7
 - **Server Load:** While the script uses a reasonable number of threads by default, setting `MAX_THREADS` to a very high number could place an excessive load on the 3GPP server. Please be considerate.
 - **Firewall/Proxy:** If you are behind a corporate firewall or proxy, you may need to configure environment variables (`HTTP_PROXY`, `HTTPS_PROXY`) for the script to access the internet.
 - **Website Changes:** The script relies on the current structure of the 3GPP FTP website. If the website's URL scheme or page layout changes significantly, the script may need to be updated.
+
+---
+
+**Author:** Washington Ruan  
+**Date:** February 25, 2026  
+**License:** MIT
