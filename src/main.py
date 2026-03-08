@@ -21,7 +21,7 @@ from tqdm import tqdm
 import queue
 
 # Configuration
-BASE_REVERSION = "9"
+BASE_REVERSION = "16"
 BASE_URL = f"https://www.3gpp.org/ftp/Specs/latest/Rel-{BASE_REVERSION}/"
 DOWNLOAD_DIR = f"data/Rel-{BASE_REVERSION}"
 STATE_FILE = f"download_state_rel-{BASE_REVERSION}.json"
@@ -129,7 +129,7 @@ def main():
     """
     Main function to orchestrate the download process.
     """
-    Path(DOWNLOAD_DIR).mkdir(exist_ok=True)
+    Path(DOWNLOAD_DIR).mkdir(parents=True, exist_ok=True)
     state = load_state()
 
     all_spec_files = get_all_spec_files()
